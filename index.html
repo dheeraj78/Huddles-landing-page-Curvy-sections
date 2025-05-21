@@ -26,12 +26,12 @@
 <body>
   <div class="wrapper">
     <!----------------------------- header section started----------------------------------------- -->
-    <header id="header" class="header">
-      <div class="container flex-row">
+    <header id="header" class="header ">
+      <div class="container flex-row text-center">
         <div class="header__logo">
           <a href="#"><img src="images/logo.svg" alt="logo" class="header__logo--size" /> </a>
         </div>
-        <button class="btn header__btn--size">Try it free</button>
+        <button class="btn btn1 header__btn--size">Try it free</button>
       </div>
     </header>
     <!----------------------------- header section end----------------------------------------- -->
@@ -40,105 +40,111 @@
 
     <main>
       <section class="heropage">
-        <div class="container">
-          <div class="main-content">
+        <div class="container grid">
+          <div class="main-content flex-col text-center">
             <h2>Build The Community Your Fans Will Love</h2>
-            <p> Huddle re-imagines the way we build communities. You have a voice, but so does
+            <p>
+              Huddle re-imagines the way we build communities. You have a voice, but so does
               your audience. Create connections with your users as you engage in genuine discussion.
             </p>
-            <button> Get Started For Free</button>
+            <button class="btn btn2"> Get Started For Free</button>
           </div>
           <div class="hero-image">
             <img src="images/screen-mockups.svg" alt="hero-image">
           </div>
 
 
-          <div class="number1">
-            <img src="images/icon-communities.svg" alt="communities" />
-            <p>1.4K<span>+</span></p>
-            <p>Communities Formed</p>
+          <div class="number1 flex-col ">
+            <div class="block">
+              <div class="image"><img src="images/icon-communities.svg" alt="communities" /></div>
+              <p>1.4K<span>+</span></p>
+              <p>Communities Formed</p>
+            </div>
           </div>
 
-          <div class="number2">
-            <img src="images/icon-messages.svg" alt="messages icon" />
-            <p>2.7m<span>+</span></p>
-            <p>Messages sent</p>
+          <div class="number2 flex-col">
+            <div class="block">
+              <div class="image"><img src="images/icon-messages.svg" alt="messages icon" /></div>
+              <p>2.7m<span>+</span></p>
+              <p>Messages sent</p>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="grow">
-        <div class="container">
-          <div class="content">
+      <section class="grow ">
+        <div class="container container1 grid">
+          <div class="content flex-col">
             <h2> Grow Together</h2>
             <p>
               Generate meaningful discussions with your audience and build a strong, loyal community.
               Think of the insightful conversations you miss out on with a feedback form.
             </p>
           </div>
-          <img src="images/illustration-grow-together.svg" alt="grow-together" />
+          <img src="images/illustration-grow-together.svg" alt="grow-together" class="image" />
         </div>
       </section>
 
       <section class="flowing">
-        <div class="container">
-          <div class="content">
+        <div class="container container1 grid">
+          <div class="content flex-col">
             <h2> Flowing Conversations</h2>
             <p>
               You wouldn't paginate a conversation in real life, so why do it online? Our threads have
               just-in-time loading for a more natural flow.
             </p>
           </div>
-          <img src="images/illustration-flowing-conversation.svg" alt="flowing Together" />
+          <img src="images/illustration-flowing-conversation.svg" alt="flowing Together" class="image" />
         </div>
 
       </section>
 
       <section class="your-users">
-        <div class="container">
-          <div class="content">
+        <div class="container container1 grid">
+          <div class="content flex-col text-center">
             <h2> Your Users</h2>
             <p>
               It takes no time at all to integrate Huddle with your app's authentication solution. This means,
               once signed in to your app, your users can start chatting immediately.
             </p>
           </div>
-          <img src="images/illustration-your-users.svg" alt="users" />
+          <img src="images/illustration-your-users.svg" alt="users" class="image" />
         </div>
 
       </section>
-      <section class="cta">
-        <div class="container">
+
+      <section class="cta flex-col ">
+        <div class="container flex-col text-center">
           <h2> Ready To Build Your Community?</h2>
-          <button> Get Started For Free</button>
+          <button class="btn btn2"> Get Started For Free</button>
         </div>
       </section>
     </main>
 
     <footer>
-      <div class="container">
-        <div class="block1">
+      <div class="container grid">
+        <div class="block1 flex-col">
+          <img src="images/logo.svg" class="footerimage" alt="logo image for footer">
           <div class="sub-phrase">
-            <img src="images/logo.svg" alt="logo image for footer">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
               vestibulum a, ultrices quis sem.
             </p>
           </div>
           <div class="contact-details">
-            <div class="mobile">
+            <div class="mobile flex-row">
               <img src="images/icon-phone.svg" alt="phone icon ">
               <p>
                 Phone: +1-543-123-4567
               </p>
             </div>
-            <div class="mail">
+            <div class="mail flex-row">
               <img src="images/icon-email.svg" alt="email icon">
               <p>example@company.com</p>
             </div>
           </div>
 
-          <div class="social-media-links">
+          <div class="social-media-links flex-row ">
             <div class="facebook"><i class="fa-brands fa-square-facebook"></i></div>
             <div class="instagram"><i class="fa-brands fa-instagram"></i></div>
             <div class="twitter"><i class="fa-brands fa-square-twitter"></i></div>
@@ -146,15 +152,15 @@
 
         </div>
 
-        <div class="block2">
+        <div class="block2 flex-col">
           <h3>NEWSLETTER</h3>
           <P>
             To receive tips on how to grow your community. Sign up to our weekly newsletter We'll never send you span or
             pass on your email address
           </P>
-          <form action="" method="get">
+          <form action="" method="get" class="flex-col">
             <input type="email" name="emaili" id="email">
-            <button>Subscribe</button>
+            <button class="btn btn2">Subscribe</button>
           </form>
         </div>
       </div>
